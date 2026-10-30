@@ -12,12 +12,15 @@ A colourful Android TV reading app for children, with English and Tamil stories 
 - Six-page short stories, illustrated covers, animated scene effects and difficulty labels.
 - D-pad navigation, completion indicators, reading streaks and separate English and Tamil star counts.
 - Select a word to hear it spelled; press OK again while spelling to hear its pronunciation. Speech requires a compatible Android text-to-speech voice; offline availability depends on the installed voice.
-- Replay a completed story from the beginning. Reading progress is stored locally on the device.
+- Celebrate each completed story with an animated award. Reading progress is stored locally on the device.
+- Reset all English and Tamil read marks and stars to start the library again; the daily reading streak is preserved. A confirmation screen prevents accidental resets.
 - Android TV launcher channel support for the reading streak; launcher support and display vary by device. The streak badge near Ethernet shown in some screenshots requires a compatible custom launcher.
 
 ## Remote controls
 
 Choose a language and story using the arrow keys and OK. On a reading page, use **Right** for the next page and **Left** for the previous page. Use **Up** to select a word and **OK** to hear it. **Back** returns to the previous screen. OK does not advance a reading page.
+
+To reset the library, press **Up** from the language screen, move left to **Reset**, press **OK**, and choose **Reset stories**. Choose **Cancel** or press **Back** to keep the current progress.
 
 ## Build on Windows
 
