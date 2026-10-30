@@ -9,7 +9,7 @@ A colourful Android TV reading app for children, with English and Tamil stories 
 ## Features
 
 - 53 English and 25 Tamil short stories, plus two illustrated English picture books.
-- Six-page short stories, illustrated covers, animated scene effects and difficulty labels.
+- Six-page short stories, illustrated covers, animated scene effects and difficulty labels. The story “Milo and the Kite” has six individually illustrated scenes; the other short stories currently use shared illustrated backgrounds.
 - D-pad navigation, completion indicators, reading streaks and separate English and Tamil star counts.
 - Select a word to hear it spelled; press OK again while spelling to hear its pronunciation. Speech requires a compatible Android text-to-speech voice; offline availability depends on the installed voice.
 - Celebrate each completed story with an animated award. Reading progress is stored locally on the device.
