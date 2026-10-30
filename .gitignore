@@ -1,0 +1,9 @@
+out/
+books/
+artwork/
+*.apk
+*.idsig
+*.jks
+*.keystore
+local.properties
+.gradle/

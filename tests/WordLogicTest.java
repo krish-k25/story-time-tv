@@ -1,0 +1,2 @@
+package com.example.storytv;
+public class WordLogicTest {public static void main(String[] args){check("wood.","wood");check("(hello!)","hello");check("can't","can't");check("பூ.","பூ");if(!WordLogic.letters("Wood").equals("W o o d"))throw new AssertionError();if(!WordLogic.letters("குடை").equals("கு டை"))throw new AssertionError(WordLogic.letters("குடை"));}static void check(String input,String result){if(!WordLogic.clean(input).equals(result))throw new AssertionError(input);}}

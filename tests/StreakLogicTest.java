@@ -1,0 +1,2 @@
+package com.example.storytv;
+public class StreakLogicTest {public static void main(String[] args){eq(1,StreakLogic.next(Long.MIN_VALUE,0,100));eq(3,StreakLogic.next(100,3,100));eq(4,StreakLogic.next(100,3,101));eq(1,StreakLogic.next(100,3,102));eq(3,StreakLogic.visible(100,3,101));eq(0,StreakLogic.visible(100,3,102));eq(1,StreakLogic.next(101,3,100));}static void eq(int a,int b){if(a!=b)throw new AssertionError(a+" != "+b);}}

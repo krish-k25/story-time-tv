@@ -1,0 +1,5 @@
+package com.example.storytv;
+import android.graphics.*;
+final class FinishScreen {
+ static void draw(Canvas c,Paint p,int choice,boolean tamil){c.drawColor(0xfffffaf1);p.setTypeface(Typeface.create("sans-serif-medium",0));p.setTextAlign(Paint.Align.CENTER);p.setColor(0xffffe0a7);c.drawCircle(640,180,72,p);p.setColor(0xffb57d2c);p.setTextSize(75);c.drawText("★",640,205,p);p.setColor(0xff20464c);p.setTextSize(48);c.drawText(tamil?"கதை முடிந்தது!":"Story complete!",640,310,p);p.setTextSize(25);p.setColor(0xff638082);c.drawText(tamil?"மீண்டும் படிக்கலாமா?":"Ready for another read?",640,360,p);for(int i=0;i<2;i++){float x=300+i*350;p.setColor(i==choice?0xff315f67:0xffe9e1d4);c.drawRoundRect(x-4,416,x+324,506,24,24,p);p.setColor(i==0?0xffd2ebda:0xffffe0b6);c.drawRoundRect(x,420,x+320,502,20,20,p);p.setColor(0xff23454a);p.setTextSize(27);c.drawText(i==0?(tamil?"மீண்டும் படி":"Read Again"):(tamil?"கதைகள்":"Stories"),x+160,472,p);}p.setColor(0xff668079);p.setTextSize(20);c.drawText("←  →  Choose     OK  Open     BACK  Stories",640,595,p);p.setTextAlign(Paint.Align.LEFT);}
+}

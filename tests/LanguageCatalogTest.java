@@ -1,0 +1,2 @@
+package com.example.storytv;
+public class LanguageCatalogTest {public static void main(String[] args){eq(56,LanguageCatalog.count(0));eq(25,LanguageCatalog.count(1));eq(0,LanguageCatalog.storyIndex(0,0));eq(52,LanguageCatalog.storyIndex(0,52));eq(78,LanguageCatalog.storyIndex(0,53));eq(80,LanguageCatalog.storyIndex(0,55));eq(53,LanguageCatalog.storyIndex(1,0));eq(77,LanguageCatalog.storyIndex(1,24));}static void eq(int a,int b){if(a!=b)throw new AssertionError(a+" != "+b);}}
